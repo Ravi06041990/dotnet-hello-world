@@ -11,5 +11,5 @@ phases:
       - dotnet publish -r linux-x64 hello-world-api/hello-world-api.csproj
 artifacts:  
   files:
-    - src/bin/Debug/net8.0/linux-x64/publish/**/*
+    - /bin/Debug/net8.0/linux-x64/publish/**/*
   discard-paths: yes
